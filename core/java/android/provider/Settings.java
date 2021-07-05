@@ -5950,6 +5950,15 @@ public final class Settings {
                 "high_touch_sensitivity_enable";
 
         /**
+         * @hide
+         * Whether the HighTouchPollingRate is activated or not.
+         * 0 = off, 1 = on
+         * @hide
+         */
+        public static final String HIGH_TOUCH_POLLING_RATE_ENABLE =
+                "high_touch_polling_rate_enable";
+
+        /**
          * These are all public system settings
          *
          * @hide
@@ -6071,6 +6080,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(TRANSPARENT_POWER_DIALOG_DIM);
             PRIVATE_SETTINGS.add(TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK);
             PRIVATE_SETTINGS.add(HIGH_TOUCH_SENSITIVITY_ENABLE);
+            PRIVATE_SETTINGS.add(HIGH_TOUCH_POLLING_RATE_ENABLE);
         }
 
         /**
